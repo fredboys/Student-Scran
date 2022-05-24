@@ -21,7 +21,38 @@ h1,h2 {
 }
 
 #logo {
-    text-align: center;
-    font-size: 450%;
-    padding: 25px 0;
+    float: left;
+    font-size: 600%;
+    margin-left: 33%;
+    padding-top: 25px;
+}
+
+/* navigation link */
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+} 
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
