@@ -12,19 +12,20 @@ body {
     color: #3a3a3a;
 }
 
-/* Logo and nav menu */
+/* Logo and headers */
 
 h1,h2 {
     font-family: Koulen, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: #3a3a3a;
 }
 
 #logo {
     float: left;
     font-size: 600%;
     margin-left: 33%;
-    padding-top: 25px;
+    padding: 25px 0 20px;
 }
 
 /* navigation link */
@@ -55,4 +56,19 @@ h1,h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero immage */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    clear: both;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image5.jpeg) no-repeat center center;
+    background-size: cover;
 }
