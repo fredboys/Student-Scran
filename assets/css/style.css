@@ -72,3 +72,11 @@ h1,h2 {
     background: url(../images/hero-image5.jpeg) no-repeat center center;
     background-size: cover;
 }
+
+/*reasons why */
+
+#reasons-why {
+    height: 600px;
+}
+
+
