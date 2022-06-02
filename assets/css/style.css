@@ -128,7 +128,7 @@ h1,h2 {
 footer {
     height: 100px;
     background-color: #3a3a3a;
-    margin: 0 10px;
+    margin: 0 10px 10px 10px;
 }
 
 .social-networks {
