@@ -75,8 +75,25 @@ h1,h2 {
 
 /*reasons why */
 
+#welcome {
+    text-align: center;
+    margin: 35px 0;
+    font-size: 350%;
+    background-color: #3a3a3a;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #reasons-why {
     height: 600px;
+}
+
+#main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
 
