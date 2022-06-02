@@ -96,4 +96,30 @@ h1,h2 {
     gap: 25px;
 }
 
+.left-div {
+    text-align: center;
+    width: 33%;
+}
+
+.left-div p {
+    text-align: center;
+}
+
+.mid-div {
+    text-align: center;
+    width: 33%;
+}
+
+.mid-div p {
+    text-align: center;
+}
+
+.right-div {
+    text-align: center;
+    width: 33%;
+}
+
+.right-div p {
+    text-align: center;
+}
 
