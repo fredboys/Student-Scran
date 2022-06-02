@@ -123,3 +123,25 @@ h1,h2 {
     text-align: center;
 }
 
+/* footer*/
+
+footer {
+    height: 100px;
+    background-color: #3a3a3a;
+    margin: 0 10px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+}
