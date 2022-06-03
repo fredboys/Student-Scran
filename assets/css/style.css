@@ -126,7 +126,8 @@ h1,h2 {
 /* footer*/
 
 footer {
-    height: 100px;
+    bottom: 0;
+    left: 0%;
     background-color: #3a3a3a;
     margin: 0 10px 10px 10px;
 }
@@ -144,4 +145,11 @@ footer {
     margin: 1%;
     padding: 1%;
     color: white;
+}
+
+/* meal one */
+
+#meal-one {
+    height: 600px;
+    width: 100%;
 }
