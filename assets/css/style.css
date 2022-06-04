@@ -157,6 +157,7 @@ h1,h2 {
     margin: 20px;
     color: #3a3a3a;
     font-size: 150%;
+    text-decoration: none;
 }
 
 .link:hover {
@@ -193,8 +194,26 @@ footer {
 
 /* meal one */
 
-#meal-one {
+#meals {
     height: 600px;
     width: 100%;
     clear: both;
 }
+
+.recipe-name {
+    text-align: center;
+    background-color: #3a3a3a;
+    color: #fff;
+    margin: 0 10px 10px 10px;
+}
+
+#recipe-one {
+    width: 50%;
+    float: right;
+    padding-top: 15px;
+}
+
+#recipe-two{
+    clear: both;
+}
+
