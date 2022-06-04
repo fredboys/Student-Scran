@@ -64,6 +64,8 @@ h1,h2 {
     height: 600px;
     width: 100%;
     clear: both;
+
+    position: relative;
 }
 
 #hero-image {
@@ -71,6 +73,30 @@ h1,h2 {
     width: 100%;
     background: url(../images/hero-image5.jpeg) no-repeat center center;
     background-size: cover;
+}
+
+#cover-text, #cover-text h2  {
+    color: #fff;
+}
+
+#cover-text {
+    font-size: 250%;
+    font-family: Koulen, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+
+    width: 500px;
+    height: 200px;
+
+    top: 150px;
+    left: 250px;
+    position: absolute;
+}
+
+#cover-text p {
+    font-family: Nunito, sans-serif;
+    text-transform: capitalize;
+    font-size: 50%;
 }
 
 /*reasons why */
@@ -123,6 +149,20 @@ h1,h2 {
     text-align: center;
 }
 
+/* link to recipe opage */
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #3a3a3a;
+    font-size: 150%;
+}
+
+.link:hover {
+    color: blue;
+}
+
 /* footer*/
 
 footer {
@@ -147,9 +187,14 @@ footer {
     color: white;
 }
 
+.fa-brands:hover {
+    color: blue;
+}
+
 /* meal one */
 
 #meal-one {
     height: 600px;
     width: 100%;
+    clear: both;
 }
