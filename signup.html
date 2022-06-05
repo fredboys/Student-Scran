@@ -22,47 +22,41 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="signup.html">Sign up</a>
+                    <a href="signup.html" class="active">Sign up</a>
                 </li>
                 <li>
                     <a href="recipe.html">Recipes</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="hero-outer">
-        <div id="hero-image"></div>
-        <div id="cover-text">
-            <h3>Welcome To</h3>
-            <h2>STUDENT SCRAN</h2>
-            <p class="slogan">Home to the best uni recipes</p>
-        </div>
-    </section>
-    <section id="reasons-why">
-        <h1 id="welcome">Why Join Us?</h1>
-        <div id="container">
-          <div class="left-div box">
-            <h2>TASTY</h2>
-            <p>Our meals take you away from the boring and tasteless freezer food and bring real flavour to simple meals
-             a university student like you would want. There will be a combination of spices and herbs for you to enjoy inbetween your busy study times.
-            </p>
-          </div>
-          <div class="mid-div box">
-            <h2>QUICK</h2>
-            <p>We know as a university student you dont want to be locked up in the kitchen prepearing your food for an extensive amount of time. You just want something easy but still nutritional that can be made in under 15 minutes and that's what we do.</p>
-          </div>
-          <div class="right-div box">
-            <h2>FUN</h2>
-            <p>We want to bring to you meals that arent the same as every other recipe page. We will bring new recipes that wont be seen in every kitchen to keep you enjoying your food and keep you excited about cooking and not seen as a chore. </p>            
-          </div>
-        </div>
-        <div>
-            <a href="recipe.html" class="link">TAKE A LOOK AT SOME OF OUR RECIPES HERE</a>
-        </div>
-    </section>
+    <body>
+        <section class="form-section">
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
+                <fieldset>
+                    <legend>Subscribe to our Newsletter</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname" class="text-input" required>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname" class="text-input" required>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" class="text-input" required>
+                </fieldset>
+                <br>
+                <h3>We offer a vegan or vegeterian option too!</h3>
+                <label for="vegan">Vegan</label>
+                <input type="radio" name="diet" id="vegan" value="vegan">
+                <label for="vegeterian">Vegeterian</label>
+                <input type="radio" name="diet" id="vegeterian" value="vegeterian">
+
+                <button type="submit">Submit</button>
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+    </body>
     <footer>
         <ul class="social-networks">
             <li>
