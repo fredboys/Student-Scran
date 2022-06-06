@@ -24,8 +24,20 @@ h1,h2,h3 {
 #logo {
     float: left;
     font-size: 600%;
-    margin-left: 33%;
+    margin: 0 auto;
     padding: 25px 0 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header-item {
+    flex: 1;
 }
 
 /* navigation link */
@@ -33,16 +45,10 @@ h1,h2,h3 {
 #menu {
     font-size: 150%;
     letter-spacing: 3px;
-}
-
-#menu, #logo {
-    line-height: 75px;
-} 
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-right: 25px;
 }
 
 #menu a {
@@ -58,7 +64,7 @@ h1,h2,h3 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero immage */
+/* hero image */
 
 #hero-outer {
     height: 600px;
@@ -75,7 +81,7 @@ h1,h2,h3 {
     background-size: cover;
 }
 
-#cover-text, #cover-text h2  {
+#cover-text,h3,h2 {
     color: #fff;
 }
 
@@ -112,9 +118,24 @@ h1,h2,h3 {
 }
 
 #reasons-why {
-    height: 600px;
+    height: 1000px;
+    text-align: center;
 }
 
+#reasons-why p {
+    font-size: 150%;
+}
+
+.reasons-header {
+    color: #3a3a3a;
+    font-size: 250%;
+}
+
+.box {
+    margin: 30px;
+}
+
+/*
 #container {
     display: flex;
     justify-content: center;
@@ -152,7 +173,7 @@ h1,h2,h3 {
 .right-div p {
     text-align: center;
 }
-
+*/
 /* link to recipe page */
 
 .link {
@@ -162,7 +183,6 @@ h1,h2,h3 {
     color: #3a3a3a;
     font-size: 150%;
     text-decoration: none;
-    margin: 35px;
 }
 
 .link:hover {
@@ -220,7 +240,11 @@ footer {
     padding-bottom: 15px;
 }
 
-/* recipe two */
+.recipe > h3 {
+    color: #3a3a3a;
+}
+
+/* meal two */
 
 #recipe-two{
     clear: both;
@@ -230,23 +254,24 @@ footer {
     text-align: center;
     background-color: #3a3a3a;
     color: #fff;
-    margin: 0 10px;
+    margin: 0 10px 10px 10px;
 }
 
 /*form*/
 
 .form-section {
     clear: left;
-    background: url();
+    background: url(../images/pizza-image.jpg);
     background-size: cover;
     background-position: center;
     height: 800px;
+    margin-bottom: 30px;
 }
 
 .signup-form {
     margin: 150px 10% 0 0;
     max-width: 400px;
-    background-color: #3a3a3a;
+    background-color: rgba(58, 58, 58, 0.6);
     color: white;
     position: absolute;
     left: 10%;
@@ -270,4 +295,13 @@ legend {
     margin: 5px 0 20px;
     border: solid 1px #fafafa;
     border-radius: 2px;
+    color: white;
+}
+
+/* enter button */
+
+.enter-button {
+    display: block;
+    text-align: center;
+    font-size: 100%;
 }

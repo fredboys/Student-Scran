@@ -15,23 +15,17 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">Student Scran</h1>
-        </a>
-
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="signup.html" class="active">Sign up</a>
-                </li>
-                <li>
-                    <a href="recipe.html">Recipes</a>
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header-item"></div>
+  
+          <a href="index.html" class="header-item">
+              <h1 id="logo">Student Scran</h1>
+          </a>
+  
+          <nav id="menu" class="header-item">
+              <a href="index.html">Home</a>
+              <a href="recipe.html">Recipes</a>
+              <a href="signup.html" class="active">Sign up</a>
+          </nav>
     </header>
     <body>
         <section class="form-section">
@@ -51,9 +45,10 @@
                 <input type="radio" name="diet" id="vegan" value="vegan">
                 <label for="vegeterian">Vegeterian</label>
                 <input type="radio" name="diet" id="vegeterian" value="vegeterian">
-
-                <button type="submit">Submit</button>
-                <input type="reset" value="Clear">
+                <br>
+                <button type="submit" class="enter-buttom">Submit</button>
+                <br>
+                <input type="reset" value="Clear" class="enter-button">
             </form>
         </section>
     </body>
