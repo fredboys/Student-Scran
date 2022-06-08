@@ -131,10 +131,25 @@ header {
     font-size: 250%;
 }
 
-.box {
-    margin: 30px;
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
+.box {
+    width: 75vw;
+    text-align: center;
+}
+
+.break-line {
+    width: 70%;
+    height: 1px;
+    background-color: #3a3a3a;
+    margin: 0 auto;
+}
 /*
 #container {
     display: flex;
