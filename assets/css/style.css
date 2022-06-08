@@ -118,7 +118,7 @@ header {
 }
 
 #reasons-why {
-    height: 1000px;
+    height: 800px;
     text-align: center;
 }
 
@@ -179,10 +179,11 @@ header {
 .link {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     color: #3a3a3a;
     font-size: 150%;
-    text-decoration: none;
+    text-decoration: underline;
+    margin: 10px;
 }
 
 .link:hover {
@@ -281,7 +282,8 @@ footer {
 .signup-form > h3 {
     color: #fff;
     text-align: center;
-    font-size: 100%;
+    font-size: 90%;
+    font-family: Nunito;
 }
 
 legend {
@@ -298,10 +300,26 @@ legend {
     color: white;
 }
 
+#radio-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
 /* enter button */
 
-.enter-button {
-    display: block;
-    text-align: center;
+button {
     font-size: 100%;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #fafafa;
+    color: #3a3a3a;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3a3a3a;
+    color: #fafafa;
 }
