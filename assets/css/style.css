@@ -23,7 +23,7 @@ h1,h2,h3 {
 
 #logo {
     float: left;
-    font-size: 600%;
+    font-size: 500%;
     margin: 0 auto;
     padding: 25px 0 20px;
 }
@@ -211,7 +211,7 @@ footer {
     bottom: 0;
     left: 0%;
     background-color: #3a3a3a;
-    margin: 0 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     clear: both;
 }
 
