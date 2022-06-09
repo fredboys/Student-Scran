@@ -22,10 +22,15 @@ h1,h2,h3 {
 }
 
 #logo {
-    float: left;
     font-size: 500%;
-    margin: 0 auto;
     padding: 25px 0 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.remove-decoration {
+    text-decoration: none;
 }
 
 header {
@@ -150,45 +155,7 @@ header {
     background-color: #3a3a3a;
     margin: 0 auto;
 }
-/*
-#container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-}
 
-.box {
-    border: solid 1px #555555;
-}
-
-.left-div {
-    text-align: center;
-    width: 33%;
-}
-
-.left-div p {
-    text-align: center;
-}
-
-.mid-div {
-    text-align: center;
-    width: 33%;
-}
-
-.mid-div p {
-    text-align: center;
-}
-
-.right-div {
-    text-align: center;
-    width: 33%;
-}
-
-.right-div p {
-    text-align: center;
-}
-*/
 /* link to recipe page */
 
 .link {
@@ -273,6 +240,43 @@ footer {
     margin: 0 10px 10px 10px;
 }
 
+/* photo section */
+
+#photos {
+    clear: both;
+    height: 400px;
+    width: 100%;
+}
+
+#photo-header {
+    text-align: center;
+    background-color: #3a3a3a;
+    color: #fff;
+    margin: 0 10px 10px 10px;
+}
+
+#photo-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+#photo-box, p {
+    text-align: center;
+    font-size: 130%;
+    text-transform: uppercase;
+    font-family: Koulen, sans-serif;
+}
+
+.resize {
+    width: 350px;
+    height: 250px;
+}
+
 /*form*/
 
 .form-section {
@@ -298,11 +302,15 @@ footer {
     color: #fff;
     text-align: center;
     font-size: 90%;
-    font-family: Nunito;
+    font-family: Nunito, sans-serif;
 }
 
 legend {
     margin-bottom: 20px;
+    font-family: Koulen, sans-serif;
+    font-size: 100%;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .text-input {
