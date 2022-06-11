@@ -241,6 +241,7 @@ footer {
 
 /* recipe */ 
 
+
 #meal-one-name {
     display: flex;
     justify-content: center;
@@ -253,8 +254,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
     flex-wrap: wrap;
+    margin: 20px;
     flex-direction: column;
 }
 
@@ -262,6 +264,28 @@ footer {
     color: #3a3a3a;
 }
 
+.resize-recipe {
+    height: 300px;
+    width: 450px;
+}
+
+.align-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meals li {
+    margin: 10px;
+    font-size: 100%;
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+}
+
+.meals h3 {
+    text-decoration: underline;
+}
 /* photo section */
 
 #photos {
