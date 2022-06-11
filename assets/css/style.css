@@ -123,7 +123,7 @@ header {
 }
 
 #reasons-why {
-    height: 800px;
+    height: 900px;
     text-align: center;
 }
 
@@ -166,6 +166,7 @@ header {
     font-size: 150%;
     text-decoration: underline;
     margin: 10px;
+
 }
 
 .link:hover {
@@ -201,7 +202,7 @@ footer {
     color: blue;
 }
 
-/* meal one */
+/* old code 
 
 #meals {
     height: 600px;
@@ -217,17 +218,14 @@ footer {
 }
 
 .recipe {
-    width: 50%;
-    float: right;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.recipe > h3 {
+.recipe h3 {
     color: #3a3a3a;
 }
-
-/* meal two */
 
 #recipe-two{
     clear: both;
@@ -238,6 +236,30 @@ footer {
     background-color: #3a3a3a;
     color: #fff;
     margin: 0 10px 10px 10px;
+}
+*/
+
+/* recipe */ 
+
+#meal-one-name {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #3a3a3a;
+    margin: 0 10px 10px 10px;
+}
+
+.container-recipes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container-recipes h3 {
+    color: #3a3a3a;
 }
 
 /* photo section */
