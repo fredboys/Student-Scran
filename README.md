@@ -37,6 +37,11 @@ Users of this website will be able to easily access all the information required
 
   <!--screenshot of why join us section-->
 
+### Footer
+
+  * This section shows all the social media links the user can access to keep up to date with the student scran whereabouts.
+  * There is 3 individual links each taking the user to a different social media of Student Scran.
+
 ### Recipe Section
 
   * 1
