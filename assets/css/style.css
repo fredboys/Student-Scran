@@ -202,45 +202,7 @@ footer {
     color: blue;
 }
 
-/* old code 
-
-#meals {
-    height: 600px;
-    width: 100%;
-    clear: both;
-}
-
-.recipe-name {
-    text-align: center;
-    background-color: #3a3a3a;
-    color: #fff;
-    margin: 0 10px 10px 10px;
-}
-
-.recipe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.recipe h3 {
-    color: #3a3a3a;
-}
-
-#recipe-two{
-    clear: both;
-}
-
-.recipe-name-two {
-    text-align: center;
-    background-color: #3a3a3a;
-    color: #fff;
-    margin: 0 10px 10px 10px;
-}
-*/
-
 /* recipe */ 
-
 
 #meal-one-name {
     display: flex;
