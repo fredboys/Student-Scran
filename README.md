@@ -104,11 +104,13 @@
       </ul>
   </ul>
 
+ <p>The live link can be found here - [Student Scran]()</p> 
+
 <h1>Credits</h1>
 
 <h3>Content</h3>
   <ul>
-    <li>The code to make the social media links was taken fron the CI [Love running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/) project.</li>
+    <li>The code to make the social media links was taken fron the CI [love running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/) project.</li>
   </ul>
 
 <h3>Media</h3>
