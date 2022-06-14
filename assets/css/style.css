@@ -375,4 +375,8 @@ button:hover {
     #menu {
         margin-bottom: 10px;
     }
+
+    #logo {
+        line-height: 100%;
+    }
 }
