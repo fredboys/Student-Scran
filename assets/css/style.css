@@ -354,3 +354,10 @@ button:hover {
     background-color: #3a3a3a;
     color: #fafafa;
 }
+
+/* screen sizes 1350px wide and down */
+@media screen and (max-width: 1350px) {
+
+    
+
+}
