@@ -176,7 +176,6 @@ header {
 /* footer*/
 
 footer {
-    bottom: 0;
     left: 0%;
     background-color: #3a3a3a;
     margin: 10px 10px 10px 10px;
@@ -355,9 +354,14 @@ button:hover {
     color: #fafafa;
 }
 
-/* screen sizes 1350px wide and down */
-@media screen and (max-width: 1350px) {
+/* screen sizes 1330px wide and down */
+@media only screen and (max-width: 1330px) {
+    .mobile {
+        display: none;
+    }
 
-    
-
+    #logo {
+        margin-left: 20px;
+    }
 }
+    
