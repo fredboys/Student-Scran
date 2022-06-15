@@ -202,13 +202,14 @@ footer {
 
 /* recipe */ 
 
-#meal-one-name {
+.meal-one-name {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color: #3a3a3a;
     margin: 0 10px 10px 10px;
     padding: 5px;
+    background-color: #3a3a3a;
 }
 
 .container-recipes {
@@ -223,6 +224,7 @@ footer {
 
 .container-recipes h3 {
     color: #3a3a3a;
+    text-decoration: underline;
 }
 
 .resize-recipe {
@@ -245,9 +247,6 @@ footer {
     font-weight: 800;
 }
 
-.meals h3 {
-    text-decoration: underline;
-}
 /* photo section */
 
 #photos {
