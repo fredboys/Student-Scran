@@ -74,15 +74,15 @@ Users of this website will be able to easily access all the information required
 ### Validator Testing
 
   * HTML
-    * 1
+    * No errors were found when passing through the official W3C validator.
   
   * CSS 
-    * 1
+    * No errors were found when passing through the official (Jigsaw) validator.
 
   * Accessibility
     * 1
 
-  <!--screenshot of lighthouse accessibility score-->
+![Lighthouse report](readme-assets/lighthouse-student-scran.png)
 
 ### Unfixed Bugs
 
