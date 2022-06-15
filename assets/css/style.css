@@ -415,4 +415,9 @@ button:hover {
     .meal-one-name {
         text-align: center;
     }
+
+    .social-networks i {
+        padding: 3%;
+        margin: 3%;
+    }
 }
