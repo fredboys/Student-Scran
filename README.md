@@ -115,6 +115,6 @@ Users of this website will be able to easily access all the information required
 
 ### Learning Resource
 
- * I used [Flexbox Froggy](https://flexboxfroggy.com/) 
+ * I used [Flexbox Froggy](https://flexboxfroggy.com/) to learn how to position some of my structre around the page.
 
 
