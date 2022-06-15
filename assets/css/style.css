@@ -411,4 +411,8 @@ button:hover {
         margin-bottom: 10px;
         font-size: 120%;
     }
+
+    .meal-one-name {
+        text-align: center;
+    }
 }
