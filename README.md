@@ -5,7 +5,7 @@ The Student Scran webisite is a landing page designed for university students wh
 Users of this website will be able to easily access all the information required for them to find out how to sign up to the newsletter and get sent the weekly recipes.
 
 
-<!--screenshot of website on different devices-->
+![Screen displays](readme-assets/screen-displays.png)
 
 # Features
 
