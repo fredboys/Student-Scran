@@ -80,7 +80,7 @@ Users of this website will be able to easily access all the information required
     * No errors were found when passing through the official (Jigsaw) validator.
 
   * Accessibility
-    * 1
+    * I confirmed that my webiste is accessible by running it through lighthouse in devtools.
 
 ![Lighthouse report](readme-assets/lighthouse-student-scran.png)
 
@@ -112,5 +112,9 @@ Users of this website will be able to easily access all the information required
   * The image used for meal one was taken from [Unsplash](https://unsplash.com/photos/zPZ3n-2DwHo)
   * The image used for meal two was taken from [Unsplah](https://unsplash.com/photos/r01ZopTiEV8)
   * The images in the other meals section was taken from [Unsplah](https://unsplash.com/) 
+
+### Learning Resource
+
+ * I used [Flexbox Froggy](https://flexboxfroggy.com/) 
 
 
