@@ -392,6 +392,8 @@ button:hover {
     #logo {
         font-size: 320%;
         margin: auto;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #cover-text {

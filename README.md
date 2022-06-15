@@ -91,11 +91,14 @@ Users of this website will be able to easily access all the information required
 # Deployment
 
   * The site was deployed to GitHub pages. The steps to deploy are as follows:
-    * 1
-    * 2
+    * In GitHub pages , navigate to the Settings tab
+    * Down the left hand side menu, navigate to the Pages tab
+    * Select the Main branch and select save
+    * The page will automatically refresh and the page link will appear at the top of the GitHub pages
+    * When a green tick appears it indicates a successful deployment
 
 
- <p>The live link can be found here - [Student Scran]()</p> 
+  * The live link can be found here - [Student Scran](https://fredboys.github.io/Student-Scran/)
 
 # Credits
 
