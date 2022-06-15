@@ -391,8 +391,7 @@ button:hover {
 @media only screen and (max-width: 640px) {
     #logo {
         font-size: 290%;
-        margin-left: 3px;
-        margin-right: 3px;
+        margin: auto;
     }
 
     #cover-text {
@@ -405,5 +404,9 @@ button:hover {
     .resize-recipe {
         height: 250px;
         width: 400px;
+    }
+
+    #menu {
+        margin: auto;
     }
 }
