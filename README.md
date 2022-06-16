@@ -20,7 +20,7 @@ Users of this website will be able to easily access all the information required
 
 ### Header
 
-   * The header welcomes the user to the page showing the name of the website clearly. Ive chosen the color white hre to give a good contrast to the background image.
+   * The header welcomes the user to the page showing the name of the website clearly. I've chosen the color white here to give a good contrast to the background image.
    * The header explains the page is targeted to university students using a slogan.
    * This section tells the user what the page is about and who the intended audience is.
    
@@ -36,7 +36,7 @@ Users of this website will be able to easily access all the information required
 
 ### Footer
 
-  * This section shows all the social media links the user can access to keep up to date with the student scran whereabouts.
+  * This section shows all the social media links the user can access to keep up to date with the Student Scran whereabouts.
   * There is 3 individual links each taking the user to a different social media of Student Scran.
 
 ![Footer section](readme-assets/student-scran-footer.png)  
