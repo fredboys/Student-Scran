@@ -64,7 +64,7 @@ Users of this website will be able to easily access all the information required
   * I tested that this page works in different broswers such as; Google Chrome, Safari and Firefox.
   * The page is responsive, all links work and it all looks good on different standard screen sizes using devtools and testing out on different devices.
   * I confirm that the navigation, header, sign up and form text are all readable and easy to access and understand.
-  * I have confirmed that the form works. It requires in entries in every field: First Name, Last Name and Email. Will only accept and email in the Email field and the radio and submit buttons works.
+  * I have confirmed that the form works. It requires entries in every field: First Name, Last Name and Email. Will only accept an email in the Email field and the radio and submit buttons work.
 
 ### Bugs
 
