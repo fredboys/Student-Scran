@@ -107,6 +107,7 @@ Users of this website will be able to easily access all the information required
  * The content in meal one instructions and ingredients was taken from [Delicious.](https://www.deliciousmagazine.co.uk/recipes/venison-meatballs-bean-slaw-and-flatbreads/)
  * The content in meal two instructions and ingredients was taken from [Delicious.](https://www.deliciousmagazine.co.uk/recipes/chilli-tomato-and-prawn-pasta/)
  * The icons in the footer and in the logo were taken from [Font Awesome](https://fontawesome.com/icons)
+ * Some code from CI [love running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/) form section was taken. Specifically the styling in the CSS class - signup-form
 
 ### Media
 
